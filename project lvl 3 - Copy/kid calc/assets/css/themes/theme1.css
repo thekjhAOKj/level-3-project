@@ -1,0 +1,36 @@
+.theme-main{
+    background-color: #FAE3D9;
+}
+.theme-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../images/wp8629994.png");
+}
+.theme-place{
+    background-image: url("../../images/pic1.jpg");
+}
+.theme-text1{
+    color: #000000;
+}
+.theme-text2{
+    color: #FAE3D9;
+}
+.theme-form{
+    background-color: #85b8c5;
+}
+.theme-info{
+    background-color: #FFB6B9;
+}
+.theme-bt{
+    background-color: #92d9d8;
+}
+.theme-calc{
+    background-color: #FFB6B9;
+}
+.theme-sub{
+    background-color: #dc9799;
+}
+.sub:hover{
+    background-color: #ebafb1;
+}
+button:hover{
+    background-color: #61b3b1;
+}

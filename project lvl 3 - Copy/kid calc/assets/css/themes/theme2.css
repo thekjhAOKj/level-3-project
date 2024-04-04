@@ -1,0 +1,36 @@
+.theme-main{
+    background-color: #F1F0E8;
+}
+.theme-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../images/bgg.jpg");
+}
+.theme-place{
+    background-image: url("../../images/pic2.jpg");
+}
+.theme-text1{
+    color: #000000;
+}
+.theme-text2{
+    color: #FAE3D9;
+}
+.theme-form{
+    background-color: #222831;
+}
+.theme-info{
+    background-color: #222831;
+}
+.theme-bt{
+    background-color: #00ADB5;
+}
+.theme-calc{
+    background-color: #393E46;
+}
+.theme-sub{
+    background-color: #00ADB5;
+}
+.sub:hover{
+    background-color: #61b3b1;
+}
+button:hover{
+    background-color: #61b3b1;
+}

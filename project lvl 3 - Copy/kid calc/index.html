@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/themes/theme1.css" id="theme-file">
+</head>
+<body>
+    <div class="main theme-main">
+        <div class="nav theme1-text" id="nav">
+            <div class="nav-items">
+                <a href="#" class="link theme-text1">Home</a>
+                <a href="#" class="link theme-text1">About</a>
+                <a href="#" class="link theme-text1">Contact</a>
+            </div>
+            <div class="sebox">
+                <input class="se" type="search" name="search" placeholder="search">
+            </div>
+        </div>
+        <div class="login theme-bg theme-text2">
+            <h1>login</h1>
+            <div class="form theme-form">
+                <h1>login</h1>
+                <form action="" name="form">
+                    <div class="one">
+                        <label for="name">name</label>
+                        <input type="text" id="name" name="name" placeholder="Your user name">
+                    </div>
+                    <div class="two">
+                        <label for="age">age</label>
+                        <input type="text" id="pass" name="age" placeholder="Your age">
+                    </div>
+                    <div class="three">
+                        <label for="theme">theme</label>
+                        <select name="select" id="select" onchange="theme(this)">
+                            <option value="assets/css/themes/theme1.css" id="op1">theme1</option>
+                            <option value="assets/css/themes/theme2.css" id="op2">theme2</option>
+                            <option value="assets/css/themes/theme3.css" id="op3">theme3</option>
+                        </select>
+                    </div>
+                    <button class="sub theme-text2 theme-sub">submit</button>
+                </form>
+            </div>
+            <div class="info theme-info" id="info">
+                <div class="place theme-place"></div>
+                <p>welcome salah_mg</p>
+                <p>your score is 26</p>
+            </div>
+        </div>
+        <div class="calc">
+            <h1>calc</h1>
+            <div class="cal theme-calc">
+                <input type="text" class="result" name="text" id="text" placeholder="result">
+                <input type="text" class="guess" name="guess" id="guess" placeholder="guess">
+                <button class="but1 but theme-bt">1</button>
+                <button class="but2 but theme-bt">2</button>
+                <button class="but3 but theme-bt">3</button>
+                <button class="but4 but theme-bt">4</button>
+                <button class="but5 but theme-bt">5</button>
+                <button class="but6 but theme-bt">6</button>
+                <button class="but7 but theme-bt">7</button>
+                <button class="but8 but theme-bt">8</button>
+                <button class="but9 but theme-bt">9</button>
+                <button class="but0 but theme-bt">0</button>
+                <button class="butp but theme-bt">+</button>
+                <button class="butm but theme-bt">-</button>
+                <button class="butg but theme-bt">></button>
+                <button class="butl but theme-bt"><</button>
+                <button class="bute but theme-bt">=</button>
+            </div>
+        </div>
+        <script>
+            function theme(selector){document.getElementById('theme-file').href = selector.value;}
+        </script>
+</body>
+</html>
